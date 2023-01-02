@@ -1,0 +1,4 @@
+.section__list.css {
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+}
