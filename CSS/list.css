@@ -1,4 +1,41 @@
-.section__list.css {
+.list {
     display: grid;
-    grid-template-columns: 1fr 20fr 1fr;
+    grid-template-columns: auto 1fr auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    word-break: break-word;
+    border-bottom: 1px rgb(199, 194, 194) solid;
 }
+
+.list__task {
+    align-self: center;
+}
+
+.list__task--done {
+    text-decoration: line-through;
+}
+
+.list__items {
+    background-color: white;
+    box-shadow: 0 1px 1px lightgrey;
+    padding: 0px 30px 10px;
+}
+
+.list__button {
+    height: 30px;
+    width: 20px;
+    border: none;   
+}
+
+.list__button--done {
+    background-color: green;
+    color: white;
+    justify-self: left;
+    margin-right: 10px;
+}
+
+.list__button--remove {
+    background-color: red;
+    color: white;
+};
+
