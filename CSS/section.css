@@ -1,4 +1,18 @@
 .section {
     background-color: white;
     box-shadow: 0 0 5px #aaa;
-}
+};
+
+
+.section__form {
+    display: flex;
+};
+
+
+.section__input {
+    margin-left: 15px;
+    padding: 10px;
+    flex-basis: 80%;
+};
+
+

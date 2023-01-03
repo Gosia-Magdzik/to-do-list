@@ -34,8 +34,17 @@
     margin-right: 10px;
 }
 
+.list__button--done:hover {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
 .list__button--remove {
     background-color: red;
     color: white;
 };
 
+.list__button--remove:hover {
+    border: 1px solid black;
+    border-radius: 2px;
+}
