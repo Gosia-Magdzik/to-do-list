@@ -17,7 +17,6 @@
 
 .list__items {
     background-color: white;
-    box-shadow: 0 1px 1px lightgrey;
     padding: 0px 30px 10px;
 }
 
@@ -42,7 +41,7 @@
 .list__button--remove {
     background-color: red;
     color: white;
-};
+}
 
 .list__button--remove:hover {
     border: 1px solid black;

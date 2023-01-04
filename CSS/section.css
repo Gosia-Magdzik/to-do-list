@@ -1,8 +1,11 @@
 .section {
     background-color: white;
-    box-shadow: 0 0 5px #aaa;
-    padding: 10px;
+    box-shadow: 0 0 2px #aaa;
+    padding: 15px;
+    margin-bottom: 10px;   
+
 };
+
 
 
 
