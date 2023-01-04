@@ -36,9 +36,9 @@
         grid-template-columns: 1fr;
     }    
     .form__button {
-        width: 100%;
+        grid-template-columns: 1fr;
     }    
     .form__input {
-        width: 100%;
+        grid-template-columns: 1fr;
     }
 }
