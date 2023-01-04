@@ -66,7 +66,11 @@
         return;
     }
     addNewTask(newTaskContent);
-    }
+
+    newTaskContent.focus();
+
+    };
+    
     const init = () => {
         render ();
 
