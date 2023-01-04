@@ -16,5 +16,5 @@ https://gosia-magdzik.github.io/to-do-list/
 
  # short presentation: 
 
-![gif](GIF\to-do-list.gif)
+![gif](GIF/to-do-list.gif)
 
