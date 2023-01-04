@@ -47,3 +47,9 @@
     border: 1px solid black;
     border-radius: 2px;
 }
+
+.list__button--remove:active {
+    background-color: rgb(246, 99, 99);
+    border: 1px solid black;
+    border-radius: 2px;
+}
