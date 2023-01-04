@@ -16,5 +16,5 @@ The project was intended to create an input area where You can write things 'to 
 
  # short presentation: 
 
-![gif](GIF/to-do-list.gif)
+![gif](GIF\to-do-list.gif)
 
