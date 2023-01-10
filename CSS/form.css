@@ -24,11 +24,17 @@
     margin-right: 10px;
     margin-left: 2px;
     border: none;
+    transition: 0.5s;
 }
 
 .form__button:hover {
     background-color: rgb(21, 186, 186);
-    border: 1px solid black;
+    transform: scale(1.1);
+}
+
+.form__button:active {
+    background-color: rgb(26, 223, 223);
+    transform: scale(1.1);
 }
 
 @media (max-width: 767px) {
