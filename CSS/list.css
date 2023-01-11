@@ -24,7 +24,7 @@
     height: 30px;
     width: 20px;
     border: none;   
-    transition: 0.3s;
+    transition: background 0.3s;
     cursor: pointer;
 }
 
