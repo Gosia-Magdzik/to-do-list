@@ -7,6 +7,10 @@
     border-bottom: 1px rgb(199, 194, 194) solid;
 }
 
+.list__items--hidden {
+    display: none;
+}
+
 .list__task {
     align-self: center;
 }
@@ -57,4 +61,21 @@
 
 .list__button--remove:active {
     background-color: rgb(246, 99, 99);
+}
+
+
+.list__hideShow {
+    border: none;
+    background: none;
+    color: rgb(3, 133, 133);
+}
+
+.list__finishAll {
+    border: none;
+    background: none;
+    color: rgb(3, 133, 133);
+}
+
+.list__buttonAllDone:disabled {
+    color: rgb(125, 136, 136);
 }
