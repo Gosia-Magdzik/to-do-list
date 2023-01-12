@@ -76,7 +76,7 @@
     };
 
     const renderButtons = () => { 
-        const buttonElement = document.querySelector(".js-flexButtons");
+        const buttonElement = document.querySelector(".js-Buttons__button");
 
         if (!tasks.length) {
             buttonElement.innerHTML = "";
@@ -84,10 +84,10 @@
         };
 
         buttonElement.innerHTML = `
-        <button class = "list__hideShow js-hideShow">
+        <button class = "hideShow js-hideShow">
             ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
         </button>
-        <button class = "list__finishAll js-finishAll"
+        <button class = "finishAll js-finishAll"
         ${tasks.every(({done}) => done) ? "disabled" : ""}>
             Ukończ wszystkie
         </button>
@@ -103,9 +103,9 @@
                     <button class="list__button list__button--done js-done">
                         ${task.done ? "✔" : ""}
                     </button>
-                            <span class="list__task ${task.done ? "list__task--done" : ""}">
-                                ${task.content}
-                            </span>
+                        <span class="list__task ${task.done ? "list__task--done" : ""}">
+                        ${task.content}
+                        </span>
                     <button class="list__button list__button--remove js-remove">
                         🗑
                     </button>

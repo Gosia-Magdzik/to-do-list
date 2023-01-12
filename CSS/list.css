@@ -64,18 +64,34 @@
 }
 
 
-.list__hideShow {
+.hideShow {
     border: none;
     background: none;
     color: rgb(3, 133, 133);
 }
 
-.list__finishAll {
+.hideShow:hover {
+    color: rgb(9, 204, 204);
+}
+
+.hideShow:active {
+    color: rgb(15, 87, 87);
+}
+
+.finishAll {
     border: none;
     background: none;
     color: rgb(3, 133, 133);
 }
 
-.list__buttonAllDone:disabled {
+.finishAll:hover {
+    color: rgb(9, 204, 204);
+}
+
+.finishAll:active {
+    color: rgb(15, 87, 87);
+}
+
+.finishAll:disabled {
     color: rgb(125, 136, 136);
 }

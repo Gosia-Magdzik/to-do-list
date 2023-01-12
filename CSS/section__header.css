@@ -21,10 +21,10 @@
 @media (max-width: 767px) {
 
 .section__header--grid {
-        grid-template-columns: none;
-    }
+    grid-template-columns: none;
+}
 
-.list__flexButtons {
+.Buttons {
         display: flex;
         flex-direction: column;
         gap: 10px;
